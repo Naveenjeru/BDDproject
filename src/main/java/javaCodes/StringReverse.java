@@ -4,8 +4,10 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		
-		String str="naveen is on interview complete";
-		String[] split=str.split(" ");
+		
+		String[] split= {"jeru","bandi","naveen","kumar"};
+	//	String str="naveen is on interview complete";
+	//	String[] split=str.split(" ");
 		String line="";
 		for(String s:split) {
 			String word="";
