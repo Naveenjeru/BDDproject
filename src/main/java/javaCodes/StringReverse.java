@@ -4,7 +4,7 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		
-		String str="naveen is on interview";
+		String str="naveen is on interview complete";
 		String[] split=str.split(" ");
 		String line="";
 		for(String s:split) {
