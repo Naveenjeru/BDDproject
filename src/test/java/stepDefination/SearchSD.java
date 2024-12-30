@@ -59,7 +59,7 @@ public class SearchSD {
 	@When("user searches for the non-existent product {string}")
 	public void user_searches_for_the_non_existent_product(String string) {
 	   search.enterTheSearchFiled("car");
-       System.out.println(10 / 0);
+    
 
 	}
 

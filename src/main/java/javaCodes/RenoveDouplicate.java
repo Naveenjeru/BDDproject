@@ -6,7 +6,7 @@ import java.util.Set;
 public class RenoveDouplicate {
 
 	public static void main(String[] args) {
-		String[] split = {"java","c","java","python"};  //jeru
+		String[] split = {"java","c","java","naveen"};  //jeru
 		//String str="java c java c# c python";			//bandi		
 		//	String[] split=str.split(" ");				//naveen
 		Set<String> set=new HashSet<String>();			//kumar

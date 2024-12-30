@@ -33,7 +33,7 @@ public void user_enters_their_last_name(String string) {
 @When("user enters their valid email address {string}")
 public void user_enters_their_valid_email_address(String string) {
  register.enterEmailAddress("shiva2lap@gmail.com");
- System.out.println(10 / 0);
+
 }
 
 @When("user enters their telephone number {string}")
@@ -80,7 +80,7 @@ public void user_enters_an_invalid_email_address(String string) {
 
 @Then("user is shown an error message indicating that the email address is invalid")
 public void user_is_shown_an_error_message_indicating_that_the_email_address_is_invalid() throws InterruptedException {
-   Thread.sleep(2);
+   Thread.sleep(200);
    driver.quit();
 }
 

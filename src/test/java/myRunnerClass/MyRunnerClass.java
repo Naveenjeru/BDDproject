@@ -16,9 +16,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue="stepDefination",
 		dryRun=false,
 		monochrome=true,
-		//tags= "@regression",
+		tags= "@smoke",
 		plugin= {"pretty",
-		        "html:target/new.html",
+		        "html:target/smoke.html",
 		        "rerun:fail/onlyfaied.txt"   // RERUN__ this line is for store all fail test cases in .txt format 
 
 				

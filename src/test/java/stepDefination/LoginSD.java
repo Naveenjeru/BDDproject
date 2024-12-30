@@ -53,7 +53,7 @@ public class LoginSD {
 	@When("the user enters invalid password {string}")
 	public void the_user_enters_invalid_password(String string) {
 	 login.enterPassword("oioioo");
-//	  System.out.println(10 / 0);   //1 error clear
+
 	}
 
 	@Then("user will see the error meassage")
