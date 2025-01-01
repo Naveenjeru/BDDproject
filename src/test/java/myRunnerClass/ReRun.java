@@ -7,14 +7,14 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(		
-	    features = ".//fail/onlyfaied.txt",
+	    features = "@fail/oneFail.txt",
 
 		glue="stepDefination",
 		dryRun=false,
 		monochrome=true,
 		//tags= "@regression",
 		plugin= {"pretty",
-		        "html:target/onlyfail.html",
+		     //   "html:target/onlyfail.html",
 		      
 
 				

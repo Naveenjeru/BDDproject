@@ -20,7 +20,7 @@ public class LoginScenarioOutline extends Base {
 
 	    @Given("user navigates to the login home page")
 	    public void user_navigates_to_the_login_home_page() {	
-	    	 driver = new ChromeDriver();
+	    	  driver=new ChromeDriver();
 		     login = new LoginPO(driver);
 		     driver.manage().window().maximize();
 		     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

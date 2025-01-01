@@ -16,10 +16,10 @@ import io.cucumber.junit.CucumberOptions;
 		glue="stepDefination",
 		dryRun=false,
 		monochrome=true,
-		tags= "@smoke",
+	//	tags= "@smoke",
 		plugin= {"pretty",
-		        "html:target/smoke.html",
-		        "rerun:fail/onlyfaied.txt"   // RERUN__ this line is for store all fail test cases in .txt format 
+		        "html:target/oneFailChechScreenShotAlso.html",
+		        "rerun:fail/oneFail.txt"   // RERUN__ this line is for store all fail test cases in .txt format 
 
 				
 		}

@@ -59,7 +59,7 @@ public class SearchSD {
 	@When("user searches for the non-existent product {string}")
 	public void user_searches_for_the_non_existent_product(String string) {
 	   search.enterTheSearchFiled("car");
-    
+//    System.out.println(9/0);
 
 	}
 
@@ -90,8 +90,10 @@ public class SearchSD {
 		    File destinationPath = new File(".//sc/" + screenshotName);
 		    FileUtils.copyFile(screenshotFile, destinationPath);
 		    sc.log("Screenshot saved as: " + screenshotName);
+		    
+		    
 		}
-
+		driver.quit();
 		
 		
 		
